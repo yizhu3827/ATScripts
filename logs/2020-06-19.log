@@ -1,0 +1,6 @@
+2020-06-19 01:20:13,549 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-06-19 01:20:13,923 接口测试 INFO teardown_class
+2020-06-19 01:20:17,998 接口测试 INFO 执行allure命令成功
+2020-06-19 01:20:30,977 接口测试 INFO 邮件发送成功
+2020-06-19 01:20:30,977 接口测试 INFO 删除临时目录
+2020-06-19 01:20:30,977 接口测试 INFO 删除临时目录成功
