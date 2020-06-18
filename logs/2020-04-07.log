@@ -1,0 +1,108 @@
+2020-04-07 17:14:15,713 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 17:14:16,368 接口测试 INFO teardown_class
+2020-04-07 17:14:27,117 接口测试 INFO 执行allure命令成功
+2020-04-07 17:14:29,763 接口测试 INFO 邮件发送成功
+2020-04-07 17:14:29,764 接口测试 INFO 删除临时目录
+2020-04-07 17:14:30,260 接口测试 INFO 删除临时目录成功
+2020-04-07 17:16:35,740 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 17:16:36,569 接口测试 INFO teardown_class
+2020-04-07 17:16:44,659 接口测试 INFO 执行allure命令成功
+2020-04-07 17:16:47,382 接口测试 INFO 邮件发送成功
+2020-04-07 17:16:47,383 接口测试 INFO 删除临时目录
+2020-04-07 17:16:48,172 接口测试 INFO 删除临时目录成功
+2020-04-07 17:18:23,135 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 17:18:23,919 接口测试 INFO teardown_class
+2020-04-07 17:18:32,483 接口测试 INFO 执行allure命令成功
+2020-04-07 17:18:34,938 接口测试 INFO 邮件发送成功
+2020-04-07 17:18:34,939 接口测试 INFO 删除临时目录
+2020-04-07 17:18:34,940 接口测试 INFO 删除临时目录成功
+2020-04-07 17:22:51,848 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 17:22:52,417 接口测试 INFO teardown_class
+2020-04-07 17:22:53,329 接口测试 INFO 执行allure命令成功
+2020-04-07 17:22:55,993 接口测试 INFO 邮件发送成功
+2020-04-07 17:22:55,995 接口测试 INFO 删除临时目录
+2020-04-07 17:22:55,996 接口测试 INFO 删除临时目录成功
+2020-04-07 17:25:57,668 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 17:25:58,307 接口测试 INFO teardown_class
+2020-04-07 17:25:59,518 接口测试 INFO 执行allure命令成功
+2020-04-07 17:26:02,260 接口测试 INFO 邮件发送成功
+2020-04-07 17:26:02,261 接口测试 INFO 删除临时目录
+2020-04-07 17:26:02,262 接口测试 INFO 删除临时目录成功
+2020-04-07 17:28:56,442 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 17:28:57,150 接口测试 INFO teardown_class
+2020-04-07 17:28:58,125 接口测试 INFO 执行allure命令成功
+2020-04-07 17:29:01,144 接口测试 INFO 邮件发送成功
+2020-04-07 17:29:01,146 接口测试 INFO 删除临时目录
+2020-04-07 17:29:01,146 接口测试 INFO 删除临时目录成功
+2020-04-07 17:31:07,752 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 17:31:08,318 接口测试 INFO teardown_class
+2020-04-07 17:31:09,151 接口测试 INFO 执行allure命令成功
+2020-04-07 17:31:11,760 接口测试 INFO 邮件发送成功
+2020-04-07 17:31:11,761 接口测试 INFO 删除临时目录
+2020-04-07 17:31:11,762 接口测试 INFO 删除临时目录成功
+2020-04-07 17:32:53,422 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 17:32:54,093 接口测试 INFO teardown_class
+2020-04-07 17:32:55,018 接口测试 INFO 执行allure命令成功
+2020-04-07 17:32:57,739 接口测试 INFO 邮件发送成功
+2020-04-07 17:32:57,741 接口测试 INFO 删除临时目录
+2020-04-07 17:32:57,742 接口测试 INFO 删除临时目录成功
+2020-04-07 17:35:34,359 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 17:35:34,915 接口测试 INFO teardown_class
+2020-04-07 17:35:35,831 接口测试 INFO 执行allure命令成功
+2020-04-07 17:35:38,631 接口测试 INFO 邮件发送成功
+2020-04-07 17:35:38,633 接口测试 INFO 删除临时目录
+2020-04-07 17:35:38,633 接口测试 INFO 删除临时目录成功
+2020-04-07 17:36:48,582 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 17:36:49,158 接口测试 INFO teardown_class
+2020-04-07 17:36:49,962 接口测试 INFO 执行allure命令成功
+2020-04-07 17:36:52,535 接口测试 INFO 邮件发送成功
+2020-04-07 17:36:52,537 接口测试 INFO 删除临时目录
+2020-04-07 17:36:52,538 接口测试 INFO 删除临时目录成功
+2020-04-07 17:38:53,761 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 17:38:54,307 接口测试 INFO teardown_class
+2020-04-07 17:39:02,376 接口测试 INFO 执行allure命令成功
+2020-04-07 17:39:05,041 接口测试 INFO 邮件发送成功
+2020-04-07 17:39:05,042 接口测试 INFO 删除临时目录
+2020-04-07 17:39:05,043 接口测试 INFO 删除临时目录成功
+2020-04-07 17:48:18,993 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 17:48:19,718 接口测试 INFO teardown_class
+2020-04-07 17:48:20,752 接口测试 INFO 执行allure命令成功
+2020-04-07 17:48:23,427 接口测试 INFO 邮件发送成功
+2020-04-07 17:48:23,429 接口测试 INFO 删除临时目录
+2020-04-07 17:48:23,429 接口测试 INFO 删除临时目录成功
+2020-04-07 19:58:50,745 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 19:58:52,472 接口测试 INFO teardown_class
+2020-04-07 19:58:55,567 接口测试 INFO 执行allure命令成功
+2020-04-07 19:58:58,694 接口测试 INFO 邮件发送成功
+2020-04-07 19:58:58,696 接口测试 INFO 删除临时目录
+2020-04-07 19:58:58,697 接口测试 INFO 删除临时目录成功
+2020-04-07 20:03:29,141 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 20:03:29,771 接口测试 INFO teardown_class
+2020-04-07 20:03:30,742 接口测试 INFO 执行allure命令成功
+2020-04-07 20:03:33,417 接口测试 INFO 邮件发送成功
+2020-04-07 20:03:33,419 接口测试 INFO 删除临时目录
+2020-04-07 20:03:33,419 接口测试 INFO 删除临时目录成功
+2020-04-07 20:09:24,410 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 20:09:25,039 接口测试 INFO teardown_class
+2020-04-07 20:09:25,894 接口测试 INFO 执行allure命令成功
+2020-04-07 20:09:28,605 接口测试 INFO 邮件发送成功
+2020-04-07 20:09:28,607 接口测试 INFO 删除临时目录
+2020-04-07 20:09:28,607 接口测试 INFO 删除临时目录成功
+2020-04-07 20:11:47,141 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 20:11:47,951 接口测试 INFO teardown_class
+2020-04-07 20:11:48,923 接口测试 INFO 执行allure命令成功
+2020-04-07 20:11:51,537 接口测试 INFO 邮件发送成功
+2020-04-07 20:11:51,539 接口测试 INFO 删除临时目录
+2020-04-07 20:11:51,539 接口测试 INFO 删除临时目录成功
+2020-04-07 20:22:47,117 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 20:22:47,795 接口测试 INFO teardown_class
+2020-04-07 20:22:48,733 接口测试 INFO 执行allure命令成功
+2020-04-07 20:22:51,532 接口测试 INFO 邮件发送成功
+2020-04-07 20:22:51,534 接口测试 INFO 删除临时目录
+2020-04-07 20:22:51,534 接口测试 INFO 删除临时目录成功
+2020-04-07 21:08:48,014 接口测试 INFO 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}
+2020-04-07 21:08:49,036 接口测试 INFO teardown_class
+2020-04-07 21:08:52,443 接口测试 INFO 执行allure命令成功
+2020-04-07 21:08:55,519 接口测试 INFO 邮件发送成功
+2020-04-07 21:08:55,520 接口测试 INFO 删除临时目录
+2020-04-07 21:08:55,521 接口测试 INFO 删除临时目录成功

@@ -1,0 +1,81 @@
+[ {
+  "uid" : "3843226162023a08",
+  "name" : "cnodejs项目",
+  "time" : {
+    "start" : 1586264917111,
+    "stop" : 1586264917588,
+    "duration" : 477
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cbde61a2436f969",
+  "name" : "cnodejs项目",
+  "time" : {
+    "start" : 1586264916656,
+    "stop" : 1586264917100,
+    "duration" : 444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afd780eb2fd5d76f",
+  "name" : "cnodejs项目",
+  "time" : {
+    "start" : 1586264916226,
+    "stop" : 1586264916644,
+    "duration" : 418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d5e9347d25ae953",
+  "name" : "cnodejs项目",
+  "time" : {
+    "start" : 1586264917598,
+    "stop" : 1586264918016,
+    "duration" : 418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "983f749fb2834590",
+  "name" : "cnodejs项目",
+  "time" : {
+    "start" : 1586264914658,
+    "stop" : 1586264915495,
+    "duration" : 837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e55ee16f12bec3ed",
+  "name" : "v2EX项目",
+  "time" : {
+    "start" : 1586264918027,
+    "stop" : 1586264928016,
+    "duration" : 9989
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "374d47a7542e0eb1",
+  "name" : "test_case[item7]",
+  "time" : {
+    "start" : 1586264928791,
+    "stop" : 1586264928970,
+    "duration" : 179
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fe9001fbe41c074b",
+  "name" : "cnodejs项目",
+  "time" : {
+    "start" : 1586264915507,
+    "stop" : 1586264916213,
+    "duration" : 706
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

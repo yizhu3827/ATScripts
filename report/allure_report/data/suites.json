@@ -1,0 +1,121 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test_case",
+      "children" : [ {
+        "name" : "TestCase",
+        "children" : [ {
+          "name" : "cnodejs项目",
+          "uid" : "983f749fb2834590",
+          "parentUid" : "fa6de9dd5acc829bad7ddacb08fb50db",
+          "status" : "passed",
+          "time" : {
+            "start" : 1586264914658,
+            "stop" : 1586264915495,
+            "duration" : 837
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_title': 'cnodejs项目', 'case_description': 'get /topics 主题首页', 'case_url': 'https://cnodejs.org/api/v1/topics', 'case_method': 'get', 'case_headers': '{\"User-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36\"}', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+        }, {
+          "name" : "cnodejs项目",
+          "uid" : "fe9001fbe41c074b",
+          "parentUid" : "fa6de9dd5acc829bad7ddacb08fb50db",
+          "status" : "passed",
+          "time" : {
+            "start" : 1586264915507,
+            "stop" : 1586264916213,
+            "duration" : 706
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_title': 'cnodejs项目', 'case_description': 'get /topic/:id 主题详情', 'case_url': 'https://cnodejs.org/api/v1/topic/5433d5e4e737cbe96dcef312', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+        }, {
+          "name" : "cnodejs项目",
+          "uid" : "afd780eb2fd5d76f",
+          "parentUid" : "fa6de9dd5acc829bad7ddacb08fb50db",
+          "status" : "passed",
+          "time" : {
+            "start" : 1586264916226,
+            "stop" : 1586264916644,
+            "duration" : 418
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_title': 'cnodejs项目', 'case_description': '/topic_collect/collect 收藏主题', 'case_url': 'https://cnodejs.org/api/v1/topic_collect/collect', 'case_method': 'post', 'case_headers': '', 'case_params': '', 'case_expect': '{\"success\": false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+        }, {
+          "name" : "cnodejs项目",
+          "uid" : "3cbde61a2436f969",
+          "parentUid" : "fa6de9dd5acc829bad7ddacb08fb50db",
+          "status" : "passed",
+          "time" : {
+            "start" : 1586264916656,
+            "stop" : 1586264917100,
+            "duration" : 444
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_title': 'cnodejs项目', 'case_description': 'post /topic_collect/de_collect 取消主题', 'case_url': 'https://cnodejs.org/api/v1/topic_collect/de_collect', 'case_method': 'post', 'case_headers': '', 'case_params': '', 'case_expect': '{\"success\": false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+        }, {
+          "name" : "cnodejs项目",
+          "uid" : "3843226162023a08",
+          "parentUid" : "fa6de9dd5acc829bad7ddacb08fb50db",
+          "status" : "passed",
+          "time" : {
+            "start" : 1586264917111,
+            "stop" : 1586264917588,
+            "duration" : 477
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_title': 'cnodejs项目', 'case_description': '/user/:loginname 用户详情', 'case_url': 'https://cnodejs.org/api/v1/user/alsotang', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+        }, {
+          "name" : "cnodejs项目",
+          "uid" : "8d5e9347d25ae953",
+          "parentUid" : "fa6de9dd5acc829bad7ddacb08fb50db",
+          "status" : "passed",
+          "time" : {
+            "start" : 1586264917598,
+            "stop" : 1586264918016,
+            "duration" : 418
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_title': 'cnodejs项目', 'case_description': '/message/mark_all 标记全部已读', 'case_url': 'https://cnodejs.org/api/v1/message/mark_all', 'case_method': 'post', 'case_headers': '', 'case_params': '', 'case_expect': '{\"success\": false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+        }, {
+          "name" : "v2EX项目",
+          "uid" : "e55ee16f12bec3ed",
+          "parentUid" : "fa6de9dd5acc829bad7ddacb08fb50db",
+          "status" : "failed",
+          "time" : {
+            "start" : 1586264918027,
+            "stop" : 1586264928016,
+            "duration" : 9989
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{\"title\" : \"v2EX\"}', 'other': ''}" ]
+        }, {
+          "name" : "test_case[item7]",
+          "uid" : "374d47a7542e0eb1",
+          "parentUid" : "fa6de9dd5acc829bad7ddacb08fb50db",
+          "status" : "broken",
+          "time" : {
+            "start" : 1586264928791,
+            "stop" : 1586264928970,
+            "duration" : 179
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'case_title': '百度项目', 'case_description': '百度主页', 'case_url': 'https://www.baidu.com', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '百度一下，你就知道2222', 'other': ''}" ]
+        } ],
+        "uid" : "fa6de9dd5acc829bad7ddacb08fb50db"
+      } ],
+      "uid" : "3475ebf69c31a33d03bad8f83ac096b8"
+    } ],
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c"
+  } ]
+}

@@ -1,0 +1,102 @@
+[ {
+  "buildOrder" : 46,
+  "reportUrl" : "http://localhost:8080/job/pytest-allure/46/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 8,
+    "retry" : 56
+  }
+}, {
+  "buildOrder" : 45,
+  "reportUrl" : "http://localhost:8080/job/pytest-allure/45/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 8,
+    "retry" : 48
+  }
+}, {
+  "buildOrder" : 44,
+  "reportUrl" : "http://localhost:8080/job/pytest-allure/44/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 8,
+    "retry" : 40
+  }
+}, {
+  "buildOrder" : 43,
+  "reportUrl" : "http://localhost:8080/job/pytest-allure/43/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 8,
+    "retry" : 32
+  }
+}, {
+  "buildOrder" : 42,
+  "reportUrl" : "http://localhost:8080/job/pytest-allure/42/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 8,
+    "retry" : 24
+  }
+}, {
+  "buildOrder" : 41,
+  "reportUrl" : "http://localhost:8080/job/pytest-allure/41/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 8,
+    "retry" : 16
+  }
+}, {
+  "buildOrder" : 40,
+  "reportUrl" : "http://localhost:8080/job/pytest-allure/40/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 8,
+    "retry" : 8
+  }
+}, {
+  "buildOrder" : 39,
+  "reportUrl" : "http://localhost:8080/job/pytest-allure/39/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 8,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 38,
+  "reportUrl" : "http://localhost:8080/job/pytest-allure/38/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 8,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 35,
+  "reportUrl" : "http://localhost:8080/job/pytest-allure/35/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 8,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 33,
+  "reportUrl" : "http://localhost:8080/job/pytest-allure/33/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 8,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 32,
+  "reportUrl" : "http://localhost:8080/job/pytest-allure/32/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 0,
+    "retry" : 0
+  }
+}, {
+  "data" : {
+    "run" : 7,
+    "retry" : 0
+  }
+} ]

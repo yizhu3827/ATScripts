@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+      "children" : [ {
+        "name" : "v2EX项目",
+        "uid" : "e55ee16f12bec3ed",
+        "parentUid" : "7c921812082b0c43925078dde43cee36",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586264918027,
+          "stop" : 1586264928016,
+          "duration" : 9989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{\"title\" : \"v2EX\"}', 'other': ''}" ]
+      } ],
+      "uid" : "7c921812082b0c43925078dde43cee36"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'NoneType' object has no attribute 'text'",
+      "children" : [ {
+        "name" : "test_case[item7]",
+        "uid" : "374d47a7542e0eb1",
+        "parentUid" : "75faf91e540a74d349bf51d4565a1ced",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586264928791,
+          "stop" : 1586264928970,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_title': '百度项目', 'case_description': '百度主页', 'case_url': 'https://www.baidu.com', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '百度一下，你就知道2222', 'other': ''}" ]
+      } ],
+      "uid" : "75faf91e540a74d349bf51d4565a1ced"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

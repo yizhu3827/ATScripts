@@ -1,0 +1,262 @@
+{
+  "uid" : "983f749fb2834590",
+  "name" : "cnodejs项目",
+  "fullName" : "scripts.test_case.TestCase#test_case",
+  "historyId" : "597b88e1b3d3d5292909b279b1c69024",
+  "time" : {
+    "start" : 1586264914658,
+    "stop" : 1586264915495,
+    "duration" : 837
+  },
+  "description" : "<b style='color:red;'>描述：</b>get /topics 主题首页<br /><b style='color:red;'>请求的url：</b>https://cnodejs.org/api/v1/topics<br /><b style='color:red;'>预期值：</b>True<br /><b style='color:red;'>实际执行结果：</b>True<br />",
+  "descriptionHtml" : "<p><b style='color:red;'>描述：</b>get /topics 主题首页<br /><b style='color:red;'>请求的url：</b>https://cnodejs.org/api/v1/topics<br /><b style='color:red;'>预期值：</b>True<br /><b style='color:red;'>实际执行结果：</b>True<br /></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586264914640,
+      "stop" : 1586264914640,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586264929035,
+      "stop" : 1586264935522,
+      "duration" : 6487
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "cnodejs项目"
+  }, {
+    "name" : "story",
+    "value" : "get /topics 主题首页"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "zd1"
+  }, {
+    "name" : "thread",
+    "value" : "10616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_title': 'cnodejs项目', 'case_description': 'get /topics 主题首页', 'case_url': 'https://cnodejs.org/api/v1/topics', 'case_method': 'get', 'case_headers': '{\"User-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36\"}', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1fa10724c27a9f8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586262121683,
+        "stop" : 1586262122265,
+        "duration" : 582
+      }
+    }, {
+      "uid" : "97bd67c1c674c56a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586261503328,
+        "stop" : 1586261503899,
+        "duration" : 571
+      }
+    }, {
+      "uid" : "8316930488904725",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586261359741,
+        "stop" : 1586261360331,
+        "duration" : 590
+      }
+    }, {
+      "uid" : "40ba5c76a05c73da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586261004775,
+        "stop" : 1586261005387,
+        "duration" : 612
+      }
+    }, {
+      "uid" : "ec00c7e9f3601297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586260725782,
+        "stop" : 1586260726510,
+        "duration" : 728
+      }
+    }, {
+      "uid" : "e108686ec21ce992",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586252894250,
+        "stop" : 1586252894811,
+        "duration" : 561
+      }
+    }, {
+      "uid" : "cc571d6d6c7dc915",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586252330361,
+        "stop" : 1586252330901,
+        "duration" : 540
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "a04ed8a953a6ec0d",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/45/allure/#testresult/a04ed8a953a6ec0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586262121683,
+          "stop" : 1586262122265,
+          "duration" : 582
+        }
+      }, {
+        "uid" : "4a44056d290b0f95",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/44/allure/#testresult/4a44056d290b0f95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586261503328,
+          "stop" : 1586261503899,
+          "duration" : 571
+        }
+      }, {
+        "uid" : "3577d0d6713a83d6",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/43/allure/#testresult/3577d0d6713a83d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586261359741,
+          "stop" : 1586261360331,
+          "duration" : 590
+        }
+      }, {
+        "uid" : "4713da7214af96db",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/42/allure/#testresult/4713da7214af96db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586261004775,
+          "stop" : 1586261005387,
+          "duration" : 612
+        }
+      }, {
+        "uid" : "382ebdb044d2d90f",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/41/allure/#testresult/382ebdb044d2d90f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586260725782,
+          "stop" : 1586260726510,
+          "duration" : 728
+        }
+      }, {
+        "uid" : "cb714448ba154d1f",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/40/allure/#testresult/cb714448ba154d1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586252894250,
+          "stop" : 1586252894811,
+          "duration" : 561
+        }
+      }, {
+        "uid" : "8ab707aedc4a3766",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/39/allure/#testresult/8ab707aedc4a3766",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586252330361,
+          "stop" : 1586252330901,
+          "duration" : 540
+        }
+      }, {
+        "uid" : "9f3c15a47a983e58",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/38/allure/#testresult/9f3c15a47a983e58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586252199816,
+          "stop" : 1586252200443,
+          "duration" : 627
+        }
+      }, {
+        "uid" : "819a2511930c2132",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/35/allure/#testresult/819a2511930c2132",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586251863829,
+          "stop" : 1586251864383,
+          "duration" : 554
+        }
+      }, {
+        "uid" : "7262fd9d5bd3b771",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/33/allure/#testresult/7262fd9d5bd3b771",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586251543621,
+          "stop" : 1586251544179,
+          "duration" : 558
+        }
+      }, {
+        "uid" : "cf6d4f3538ca6b38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586251085171,
+          "stop" : 1586251085795,
+          "duration" : 624
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "983f749fb2834590.json",
+  "parameterValues" : [ "{'case_title': 'cnodejs项目', 'case_description': 'get /topics 主题首页', 'case_url': 'https://cnodejs.org/api/v1/topics', 'case_method': 'get', 'case_headers': '{\"User-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36\"}', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+}

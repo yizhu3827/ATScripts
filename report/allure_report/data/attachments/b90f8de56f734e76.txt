@@ -1,0 +1,1 @@
+INFO     接口测试:RequestHhandler.py:45 请求：https://www.v2ex.com/api/site/info.json 断言失败，预期值是：[v2EX] 实际执行结果：[V2EX], 相关参数:{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{"title" : "v2EX"}', 'other': ''}

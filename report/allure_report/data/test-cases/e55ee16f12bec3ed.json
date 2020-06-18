@@ -1,0 +1,305 @@
+{
+  "uid" : "e55ee16f12bec3ed",
+  "name" : "v2EX项目",
+  "fullName" : "scripts.test_case.TestCase#test_case",
+  "historyId" : "f85d11cb45817a68a7f5c045f034434d",
+  "time" : {
+    "start" : 1586264918027,
+    "stop" : 1586264928016,
+    "duration" : 9989
+  },
+  "description" : "<b style='color:red;'>描述：</b>获取网站信息<br /><b style='color:red;'>请求的url：</b>https://www.v2ex.com/api/site/info.json<br /><b style='color:red;'>预期值：</b>v2EX<br /><b style='color:red;'>实际执行结果：</b>V2EX<br />",
+  "descriptionHtml" : "<p><b style='color:red;'>描述：</b>获取网站信息<br /><b style='color:red;'>请求的url：</b>https://www.v2ex.com/api/site/info.json<br /><b style='color:red;'>预期值：</b>v2EX<br /><b style='color:red;'>实际执行结果：</b>V2EX<br /></p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+  "statusTrace" : "self = <scripts.test_case.TestCase object at 0x0000000003AAF9E8>\nitem = {'case_description': '获取网站信息', 'case_expect': '{\"title\" : \"v2EX\"}', 'case_headers': '', 'case_method': 'get', ...}\n\n    @pytest.mark.parametrize(\"item\", ExcelHandler().get_excel_data(settings.EXCEL_FILE_PATH))\n    def test_case(self, item):\n        # 调用日志功能的info级别：\n        # logger().info(item)\n        # 获取每一行数并且发请求：\n        response = RequestHandler().get_response(item)\n        # 行为驱动标记：\n        allure.dynamic.feature(item['case_title'])\n        allure.dynamic.story(item['case_description'])\n        # 动态加参：\n        allure.dynamic.title(item['case_title'])\n        allure.dynamic.description(\n            \"<b style='color:red;'>描述：</b>{}<br />\"\n            \"<b style='color:red;'>请求的url：</b>{}<br />\"\n            \"<b style='color:red;'>预期值：</b>{}<br />\"\n            \"<b style='color:red;'>实际执行结果：</b>{}<br />\".format(\n                item['case_description'],\n                item['case_url'],\n                response[0],\n                response[1]\n            ))\n>       assert response[0] == response[1]\nE       AssertionError: assert 'v2EX' == 'V2EX'\nE         - v2EX\nE         ? ^\nE         + V2EX\nE         ? ^\n\nscripts\\test_case.py:37: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586264914640,
+      "stop" : 1586264914640,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "<b style='color:red;'>描述：</b>获取网站信息<br /><b style='color:red;'>请求的url：</b>https://www.v2ex.com/api/site/info.json<br /><b style='color:red;'>预期值：</b>v2EX<br /><b style='color:red;'>实际执行结果：</b>V2EX<br />",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+    "statusTrace" : "self = <scripts.test_case.TestCase object at 0x0000000003AAF9E8>\nitem = {'case_description': '获取网站信息', 'case_expect': '{\"title\" : \"v2EX\"}', 'case_headers': '', 'case_method': 'get', ...}\n\n    @pytest.mark.parametrize(\"item\", ExcelHandler().get_excel_data(settings.EXCEL_FILE_PATH))\n    def test_case(self, item):\n        # 调用日志功能的info级别：\n        # logger().info(item)\n        # 获取每一行数并且发请求：\n        response = RequestHandler().get_response(item)\n        # 行为驱动标记：\n        allure.dynamic.feature(item['case_title'])\n        allure.dynamic.story(item['case_description'])\n        # 动态加参：\n        allure.dynamic.title(item['case_title'])\n        allure.dynamic.description(\n            \"<b style='color:red;'>描述：</b>{}<br />\"\n            \"<b style='color:red;'>请求的url：</b>{}<br />\"\n            \"<b style='color:red;'>预期值：</b>{}<br />\"\n            \"<b style='color:red;'>实际执行结果：</b>{}<br />\".format(\n                item['case_description'],\n                item['case_url'],\n                response[0],\n                response[1]\n            ))\n>       assert response[0] == response[1]\nE       AssertionError: assert 'v2EX' == 'V2EX'\nE         - v2EX\nE         ? ^\nE         + V2EX\nE         ? ^\n\nscripts\\test_case.py:37: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6d8ea2ba1bf212a",
+      "name" : "log",
+      "source" : "6d8ea2ba1bf212a.txt",
+      "type" : "text/plain",
+      "size" : 408
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586264929035,
+      "stop" : 1586264935522,
+      "duration" : 6487
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "v2EX项目"
+  }, {
+    "name" : "story",
+    "value" : "获取网站信息"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "zd1"
+  }, {
+    "name" : "thread",
+    "value" : "10616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{\"title\" : \"v2EX\"}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3256924cfb556568",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+      "time" : {
+        "start" : 1586262124366,
+        "stop" : 1586262167118,
+        "duration" : 42752
+      }
+    }, {
+      "uid" : "a496acd5c2a3595c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+      "time" : {
+        "start" : 1586261506056,
+        "stop" : 1586261507144,
+        "duration" : 1088
+      }
+    }, {
+      "uid" : "39fc978826138d78",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+      "time" : {
+        "start" : 1586261362526,
+        "stop" : 1586261364411,
+        "duration" : 1885
+      }
+    }, {
+      "uid" : "c551946ddda74024",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+      "time" : {
+        "start" : 1586261007519,
+        "stop" : 1586261009143,
+        "duration" : 1624
+      }
+    }, {
+      "uid" : "5d71a582a9e86a67",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+      "time" : {
+        "start" : 1586260728882,
+        "stop" : 1586260730747,
+        "duration" : 1865
+      }
+    }, {
+      "uid" : "1e9a7cdde187c5ce",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+      "time" : {
+        "start" : 1586252897064,
+        "stop" : 1586252898994,
+        "duration" : 1930
+      }
+    }, {
+      "uid" : "5b7dfb4680eae274",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+      "time" : {
+        "start" : 1586252333060,
+        "stop" : 1586252333764,
+        "duration" : 704
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 12,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "3bf2b80518ff23f9",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/45/allure/#testresult/3bf2b80518ff23f9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+        "time" : {
+          "start" : 1586262124366,
+          "stop" : 1586262167118,
+          "duration" : 42752
+        }
+      }, {
+        "uid" : "3ca29925f739760e",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/44/allure/#testresult/3ca29925f739760e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+        "time" : {
+          "start" : 1586261506056,
+          "stop" : 1586261507144,
+          "duration" : 1088
+        }
+      }, {
+        "uid" : "21dc82e0b8b909ec",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/43/allure/#testresult/21dc82e0b8b909ec",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+        "time" : {
+          "start" : 1586261362526,
+          "stop" : 1586261364411,
+          "duration" : 1885
+        }
+      }, {
+        "uid" : "947677dc15abdb6b",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/42/allure/#testresult/947677dc15abdb6b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+        "time" : {
+          "start" : 1586261007519,
+          "stop" : 1586261009143,
+          "duration" : 1624
+        }
+      }, {
+        "uid" : "26aa4d73babd3580",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/41/allure/#testresult/26aa4d73babd3580",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+        "time" : {
+          "start" : 1586260728882,
+          "stop" : 1586260730747,
+          "duration" : 1865
+        }
+      }, {
+        "uid" : "26367858019c3991",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/40/allure/#testresult/26367858019c3991",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+        "time" : {
+          "start" : 1586252897064,
+          "stop" : 1586252898994,
+          "duration" : 1930
+        }
+      }, {
+        "uid" : "e9e990dc9915a296",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/39/allure/#testresult/e9e990dc9915a296",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+        "time" : {
+          "start" : 1586252333060,
+          "stop" : 1586252333764,
+          "duration" : 704
+        }
+      }, {
+        "uid" : "f0e80deb36f43a2d",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/38/allure/#testresult/f0e80deb36f43a2d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+        "time" : {
+          "start" : 1586252202528,
+          "stop" : 1586252208585,
+          "duration" : 6057
+        }
+      }, {
+        "uid" : "52bb807a63753c06",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/35/allure/#testresult/52bb807a63753c06",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+        "time" : {
+          "start" : 1586251866476,
+          "stop" : 1586251867753,
+          "duration" : 1277
+        }
+      }, {
+        "uid" : "9f4c9430e77e0366",
+        "reportUrl" : "http://localhost:8080/job/pytest-allure/33/allure/#testresult/9f4c9430e77e0366",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+        "time" : {
+          "start" : 1586251546290,
+          "stop" : 1586251557669,
+          "duration" : 11379
+        }
+      }, {
+        "uid" : "53ae6235b5f44d31",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'v2EX' == 'V2EX'\n  - v2EX\n  ? ^\n  + V2EX\n  ? ^",
+        "time" : {
+          "start" : 1586251088652,
+          "stop" : 1586251103136,
+          "duration" : 14484
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e55ee16f12bec3ed.json",
+  "parameterValues" : [ "{'case_title': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_headers': '', 'case_params': '', 'case_expect': '{\"title\" : \"v2EX\"}', 'other': ''}" ]
+}

@@ -1,0 +1,5 @@
+INFO     接口测试:test_case.py:40 teardown_class
+INFO     接口测试:AllureHandler.py:11 执行allure命令成功
+INFO     接口测试:SendMailHandler.py:83 邮件发送成功
+INFO     接口测试:SendMailHandler.py:88 删除临时目录
+INFO     接口测试:SendMailHandler.py:90 删除临时目录成功

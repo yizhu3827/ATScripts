@@ -1,0 +1,95 @@
+{
+  "uid" : "ecb60d7d8e0de929",
+  "name" : "cnodejs项目",
+  "fullName" : "scripts.test_case.TestCase#test_case",
+  "historyId" : "27df0627900123920d9c0fba15f7352d",
+  "time" : {
+    "start" : 1586261360809,
+    "stop" : 1586261361150,
+    "duration" : 341
+  },
+  "description" : "<b style='color:red;'>描述：</b>/topic_collect/collect 收藏主题<br /><b style='color:red;'>请求的url：</b>https://cnodejs.org/api/v1/topic_collect/collect<br /><b style='color:red;'>预期值：</b>False<br /><b style='color:red;'>实际执行结果：</b>False<br />",
+  "descriptionHtml" : "<p><b style='color:red;'>描述：</b>/topic_collect/collect 收藏主题<br /><b style='color:red;'>请求的url：</b>https://cnodejs.org/api/v1/topic_collect/collect<br /><b style='color:red;'>预期值：</b>False<br /><b style='color:red;'>实际执行结果：</b>False<br /></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586261359737,
+      "stop" : 1586261359737,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586261365039,
+      "stop" : 1586261368609,
+      "duration" : 3570
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "cnodejs项目"
+  }, {
+    "name" : "story",
+    "value" : "/topic_collect/collect 收藏主题"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "zd1"
+  }, {
+    "name" : "thread",
+    "value" : "8124-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "item",
+    "value" : "{'case_title': 'cnodejs项目', 'case_description': '/topic_collect/collect 收藏主题', 'case_url': 'https://cnodejs.org/api/v1/topic_collect/collect', 'case_method': 'post', 'case_headers': '', 'case_params': '', 'case_expect': '{\"success\": false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecb60d7d8e0de929.json",
+  "parameterValues" : [ "{'case_title': 'cnodejs项目', 'case_description': '/topic_collect/collect 收藏主题', 'case_url': 'https://cnodejs.org/api/v1/topic_collect/collect', 'case_method': 'post', 'case_headers': '', 'case_params': '', 'case_expect': '{\"success\": false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+}
